@@ -1,7 +1,7 @@
 # p-search
 p-search: High-Performance Parallel Text Search Tool
 
-**p-search** is a lightweight, efficient command-line utility designed to search for strings within massive files). 
+**p-search** is a lightweight, efficient command-line utility designed to search for strings within massive files. 
 
 Unlike standard single-threaded search tools, p-search utilises Linux System Calls to distribute the workload across multiple CPU cores, maximizing I/O throughput via Memory Mapped I/O (`mmap`) and Parallel Processing.
 
